@@ -1,4 +1,4 @@
-function carregar() { 
+
     var msg = window.document.getElementById('msg')
     var img = window.document.getElementById('imagem')
     var data = new Date()
@@ -14,4 +14,4 @@ function carregar() {
         //boa noite
         img.src ='fotoNoite.png'
     }
-}    
+  
