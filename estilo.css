@@ -1,6 +1,6 @@
 body{
 
-    background-color: bisque;
+    background-color: rgb(37, 22, 3);
     font: normal 15pt arial;
     margin: auto;
 }
@@ -11,7 +11,7 @@ header{
     margin: auto;
 }
 section{
-    background: rgb(255, 255, 255);
+    background: rgb(12, 1, 1);
     border-radius: 10px;
     padding: 500px;
     width: 500px;
