@@ -1,8 +1,8 @@
 var msg =window.document.getElementById('msg')
-var img =window.document.getElementById('foto')
+var img =window.document.getElementById('rt')
 var data = new Date()
 var hora = data.getHours()
-msg.innerHTML ='agora são' + hora +' horas.'
+msg.innerHTML ='agora são ' + hora +' horas.'
 if (hora >= 0 && hora < 12){
     //bom dia
     img.src ='fotoManhã.png'
