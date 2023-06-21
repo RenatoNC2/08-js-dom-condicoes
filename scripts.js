@@ -6,14 +6,15 @@ function verificar(){
     if(fano.value.length == 0 || Number(fano.value) > ano){
         window.alert('[ERRO] verifi que se os espaços a baixo foram devidadmente prenxidos')
     }else{
-        var fsex = document.getElementById('radsex')
+        var fsex = document.getElementByName('radsex')
         var idade = ano - Number(fano.value)
-        var genero =''
+        var genero = ''
         if (fsex[0].checked){
             genero = 'Homem'
         }else if (fsex[1].checked){
             genero = 'Mulher'
         }
-        res.innerHTML = `detectamos ${genero} com ${idade}anos`
+        res.Style.textAlign ='center'
+        res.innerHTML = `Detectamos ${genero} com ${idade}anos.`
     }
 }
