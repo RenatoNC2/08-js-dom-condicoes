@@ -1,17 +1,17 @@
 body{
 
-    background-color: rgb(37, 22, 3);
+    background-color: rgb(177, 36, 118);
     font: normal 15pt arial;
     margin: auto;
 }
 header{
-    color: bisque;
+    color: rgb(37, 146, 61);
     font: normal 15pt arial;
     text-align: center;
     margin: auto;
 }
 section{
-    background: rgb(12, 1, 1);
+    background: rgb(156, 149, 149);
     border-radius: 10px;
     padding: 500px;
     width: 500px;
@@ -20,7 +20,7 @@ section{
 
 }
 footer{
-    color: bisque;
+    color: rgb(15, 12, 8);
     font: normal 15pt arial;
     text-align: center;
     margin: auto;
