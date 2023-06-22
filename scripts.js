@@ -35,7 +35,7 @@ function verificar(){
                 //idoso
             }
         }
-        res.Style.textAlign ='center'
+        
         res.innerHTML = `Detectamos ${genero} com ${idade}anos.`
         res.appendChild(img)
     }
