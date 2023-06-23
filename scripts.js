@@ -15,7 +15,6 @@ function verificar(){
             genero = 'Homem'
             if(idade >= 0 && idade <10){
                 //criança
-                //img.setAttribute('src','nome da foto')
                 img.setAttribute('src','crianca.png')
             }else if(idade <21){
                 //jovem
