@@ -33,6 +33,7 @@ function verificar(){
                 //adulto
             }else{
                 //idoso
+                img.setAttribute('src','idosaa.jpg')
             }
         }
         res.style.textAlign ='center'
